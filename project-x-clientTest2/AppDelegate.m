@@ -7,9 +7,9 @@
 //
 
 #import "cocos2d.h"
-
+#import "MainMenuScene.h"
 #import "AppDelegate.h"
-#import "IntroLayer.h"
+
 
 @implementation AppController
 
@@ -73,7 +73,7 @@
 	[CCTexture2D PVRImagesHavePremultipliedAlpha:YES];
 
 	// and add the scene to the stack. The director will run it when it automatically when the view is displayed.
-	[director_ pushScene: [IntroLayer scene]]; 
+	[director_ pushScene: [MainMenuScene scene]];
 
 	
 	// Create a Navigation Controller with the Director
@@ -86,6 +86,8 @@
 	
 	// make main window visible
 	[window_ makeKeyAndVisible];
+    
+
 	
 	return YES;
 }
@@ -93,7 +95,7 @@
 // Supported orientations: Landscape. Customize it for your own needs
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-	return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+	return UIInterfaceOrientationIsPortrait(interfaceOrientation);
 }
 
 
@@ -113,6 +115,7 @@
 
 -(void) applicationDidEnterBackground:(UIApplication*)application
 {
+    exit(0);
 	if( [navController_ visibleViewController] == director_ )
 		[director_ stopAnimation];
 }
