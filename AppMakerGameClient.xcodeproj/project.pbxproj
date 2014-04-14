@@ -163,7 +163,7 @@
 		0B61AE0D15F491B000338C30 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0B61AE0F15F491B700338C30 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		0B61AE1115F4929000338C30 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		0B6E28AE15EC7A3A00E0C268 /* AppMakerGameClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMakerGameClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6E28AE15EC7A3A00E0C268 /* AppMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6E28B215EC7A3A00E0C268 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0B6E28B415EC7A3A00E0C268 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		0B6E28B615EC7A3A00E0C268 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -482,7 +482,7 @@
 		0B6E28AF15EC7A3A00E0C268 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B6E28AE15EC7A3A00E0C268 /* AppMakerGameClient.app */,
+				0B6E28AE15EC7A3A00E0C268 /* AppMaker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -887,7 +887,7 @@
 			);
 			name = AppMakerGameClient;
 			productName = "project-x-clientTest2";
-			productReference = 0B6E28AE15EC7A3A00E0C268 /* AppMakerGameClient.app */;
+			productReference = 0B6E28AE15EC7A3A00E0C268 /* AppMaker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1128,7 +1128,7 @@
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_NAME = AppMakerGameClient;
+				PRODUCT_NAME = AppMaker;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -1152,7 +1152,7 @@
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_NAME = AppMakerGameClient;
+				PRODUCT_NAME = AppMaker;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
