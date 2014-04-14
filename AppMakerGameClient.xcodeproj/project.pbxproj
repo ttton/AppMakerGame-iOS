@@ -187,7 +187,7 @@
 		0B6E28BE15EC7A3A00E0C268 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0B6E28C015EC7A3A00E0C268 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0B6E28C215EC7A3A00E0C268 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		0B6E28DC15EC7A3B00E0C268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		0B6E28DC15EC7A3B00E0C268 /* AppMakerGameClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppMakerGameClient-Info.plist"; sourceTree = "<group>"; };
 		0B6E28E115EC7A3B00E0C268 /* CCAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAction.h; sourceTree = "<group>"; };
 		0B6E28E215EC7A3B00E0C268 /* CCAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAction.m; sourceTree = "<group>"; };
 		0B6E28E415EC7A3B00E0C268 /* CCActionCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCActionCamera.h; sourceTree = "<group>"; };
@@ -878,7 +878,7 @@
 		0B6E2A3815EC7A4000E0C268 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0B6E28DC15EC7A3B00E0C268 /* Info.plist */,
+				0B6E28DC15EC7A3B00E0C268 /* AppMakerGameClient-Info.plist */,
 				0B6E2A3915EC7A4000E0C268 /* Prefix.pch */,
 				0B6E2A3A15EC7A4000E0C268 /* main.m */,
 			);
@@ -1150,7 +1150,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AppMakerGameClient/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"AppMakerGameClient/libs/kazmath/include\"";
-				INFOPLIST_FILE = AppMakerGameClient/Resources/Info.plist;
+				INFOPLIST_FILE = "AppMakerGameClient/AppMakerGameClient-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = (
 					"-lz",
@@ -1174,7 +1174,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AppMakerGameClient/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"AppMakerGameClient/libs/kazmath/include\"";
-				INFOPLIST_FILE = AppMakerGameClient/Resources/Info.plist;
+				INFOPLIST_FILE = "AppMakerGameClient/AppMakerGameClient-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = (
 					"-lz",
