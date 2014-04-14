@@ -11,27 +11,14 @@
 		0B61AE0E15F491B000338C30 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B61AE0D15F491B000338C30 /* SystemConfiguration.framework */; };
 		0B61AE1015F491B700338C30 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B61AE0F15F491B700338C30 /* MobileCoreServices.framework */; };
 		0B61AE1215F4929000338C30 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B61AE1115F4929000338C30 /* libz.dylib */; };
-		0B61AE1B15F49E1900338C30 /* ASIAuthenticationDialog.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61ADF715F48AC600338C30 /* ASIAuthenticationDialog.h */; };
 		0B61AE1C15F49E1900338C30 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61ADF815F48AC600338C30 /* ASIAuthenticationDialog.m */; };
-		0B61AE1D15F49E1900338C30 /* ASICacheDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61ADF915F48AC600338C30 /* ASICacheDelegate.h */; };
-		0B61AE1E15F49E1900338C30 /* ASIDataCompressor.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61ADFA15F48AC600338C30 /* ASIDataCompressor.h */; };
 		0B61AE1F15F49E1900338C30 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61ADFB15F48AC600338C30 /* ASIDataCompressor.m */; };
-		0B61AE2015F49E1900338C30 /* ASIDataDecompressor.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61ADFC15F48AC600338C30 /* ASIDataDecompressor.h */; };
 		0B61AE2115F49E1900338C30 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61ADFD15F48AC600338C30 /* ASIDataDecompressor.m */; };
-		0B61AE2215F49E1900338C30 /* ASIDownloadCache.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61ADFE15F48AC600338C30 /* ASIDownloadCache.h */; };
 		0B61AE2315F49E1900338C30 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61ADFF15F48AC600338C30 /* ASIDownloadCache.m */; };
-		0B61AE2415F49E1900338C30 /* ASIFormDataRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61AE0015F48AC600338C30 /* ASIFormDataRequest.h */; };
 		0B61AE2515F49E1900338C30 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61AE0115F48AC600338C30 /* ASIFormDataRequest.m */; };
-		0B61AE2615F49E1900338C30 /* ASIHTTPRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61AE0215F48AC600338C30 /* ASIHTTPRequest.h */; };
 		0B61AE2715F49E1900338C30 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61AE0315F48AC600338C30 /* ASIHTTPRequest.m */; };
-		0B61AE2815F49E1900338C30 /* ASIHTTPRequestConfig.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61AE0415F48AC600338C30 /* ASIHTTPRequestConfig.h */; };
-		0B61AE2915F49E1900338C30 /* ASIHTTPRequestDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61AE0515F48AC600338C30 /* ASIHTTPRequestDelegate.h */; };
-		0B61AE2A15F49E1900338C30 /* ASIInputStream.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61AE0615F48AC600338C30 /* ASIInputStream.h */; };
 		0B61AE2B15F49E1900338C30 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61AE0715F48AC600338C30 /* ASIInputStream.m */; };
-		0B61AE2C15F49E1900338C30 /* ASINetworkQueue.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61AE0815F48AC600338C30 /* ASINetworkQueue.h */; };
 		0B61AE2D15F49E1900338C30 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61AE0915F48AC600338C30 /* ASINetworkQueue.m */; };
-		0B61AE2E15F49E1900338C30 /* ASIProgressDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61AE0A15F48AC600338C30 /* ASIProgressDelegate.h */; };
-		0B61AE2F15F49E1900338C30 /* Reachability.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B61ADF515F48AAF00338C30 /* Reachability.h */; };
 		0B61AE3015F49E1900338C30 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B61ADF615F48AAF00338C30 /* Reachability.m */; };
 		0B6E28B315EC7A3A00E0C268 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6E28B215EC7A3A00E0C268 /* QuartzCore.framework */; };
 		0B6E28B515EC7A3A00E0C268 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6E28B415EC7A3A00E0C268 /* OpenGLES.framework */; };
@@ -944,27 +931,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B61AE1B15F49E1900338C30 /* ASIAuthenticationDialog.h in Sources */,
 				0B61AE1C15F49E1900338C30 /* ASIAuthenticationDialog.m in Sources */,
-				0B61AE1D15F49E1900338C30 /* ASICacheDelegate.h in Sources */,
-				0B61AE1E15F49E1900338C30 /* ASIDataCompressor.h in Sources */,
 				0B61AE1F15F49E1900338C30 /* ASIDataCompressor.m in Sources */,
-				0B61AE2015F49E1900338C30 /* ASIDataDecompressor.h in Sources */,
 				0B61AE2115F49E1900338C30 /* ASIDataDecompressor.m in Sources */,
-				0B61AE2215F49E1900338C30 /* ASIDownloadCache.h in Sources */,
 				0B61AE2315F49E1900338C30 /* ASIDownloadCache.m in Sources */,
-				0B61AE2415F49E1900338C30 /* ASIFormDataRequest.h in Sources */,
 				0B61AE2515F49E1900338C30 /* ASIFormDataRequest.m in Sources */,
-				0B61AE2615F49E1900338C30 /* ASIHTTPRequest.h in Sources */,
 				0B61AE2715F49E1900338C30 /* ASIHTTPRequest.m in Sources */,
-				0B61AE2815F49E1900338C30 /* ASIHTTPRequestConfig.h in Sources */,
-				0B61AE2915F49E1900338C30 /* ASIHTTPRequestDelegate.h in Sources */,
-				0B61AE2A15F49E1900338C30 /* ASIInputStream.h in Sources */,
 				0B61AE2B15F49E1900338C30 /* ASIInputStream.m in Sources */,
-				0B61AE2C15F49E1900338C30 /* ASINetworkQueue.h in Sources */,
 				0B61AE2D15F49E1900338C30 /* ASINetworkQueue.m in Sources */,
-				0B61AE2E15F49E1900338C30 /* ASIProgressDelegate.h in Sources */,
-				0B61AE2F15F49E1900338C30 /* Reachability.h in Sources */,
 				0B61AE3015F49E1900338C30 /* Reachability.m in Sources */,
 				0B6E28E315EC7A3B00E0C268 /* CCAction.m in Sources */,
 				0B6E28E615EC7A3B00E0C268 /* CCActionCamera.m in Sources */,
