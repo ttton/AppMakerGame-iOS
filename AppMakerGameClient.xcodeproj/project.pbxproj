@@ -42,7 +42,6 @@
 		0B6E28BF15EC7A3A00E0C268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6E28BE15EC7A3A00E0C268 /* Foundation.framework */; };
 		0B6E28C115EC7A3A00E0C268 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6E28C015EC7A3A00E0C268 /* CoreGraphics.framework */; };
 		0B6E28C315EC7A3A00E0C268 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6E28C215EC7A3A00E0C268 /* GameKit.framework */; };
-		0B6E28DE15EC7A3B00E0C268 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28DD15EC7A3B00E0C268 /* iTunesArtwork */; };
 		0B6E28E315EC7A3B00E0C268 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E28E215EC7A3B00E0C268 /* CCAction.m */; };
 		0B6E28E615EC7A3B00E0C268 /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E28E515EC7A3B00E0C268 /* CCActionCamera.m */; };
 		0B6E28E915EC7A3B00E0C268 /* CCActionCatmullRom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E28E815EC7A3B00E0C268 /* CCActionCatmullRom.m */; };
@@ -131,7 +130,6 @@
 		0B6E2A0115EC7A3F00E0C268 /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E2A0015EC7A3F00E0C268 /* CocosDenshion.m */; };
 		0B6E2A0415EC7A3F00E0C268 /* SimpleAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E2A0315EC7A3F00E0C268 /* SimpleAudioEngine.m */; };
 		0B6E2A1A15EC7A4000E0C268 /* aabb.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E2A1915EC7A4000E0C268 /* aabb.c */; };
-		0B6E2A1C15EC7A4000E0C268 /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E2A1B15EC7A4000E0C268 /* ChangeLog */; };
 		0B6E2A2015EC7A4000E0C268 /* mat4stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E2A1F15EC7A4000E0C268 /* mat4stack.c */; };
 		0B6E2A2215EC7A4000E0C268 /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E2A2115EC7A4000E0C268 /* matrix.c */; };
 		0B6E2A2415EC7A4000E0C268 /* mat3.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E2A2315EC7A4000E0C268 /* mat3.c */; };
@@ -190,7 +188,6 @@
 		0B6E28C015EC7A3A00E0C268 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0B6E28C215EC7A3A00E0C268 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		0B6E28DC15EC7A3B00E0C268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
-		0B6E28DD15EC7A3B00E0C268 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
 		0B6E28E115EC7A3B00E0C268 /* CCAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAction.h; sourceTree = "<group>"; };
 		0B6E28E215EC7A3B00E0C268 /* CCAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAction.m; sourceTree = "<group>"; };
 		0B6E28E415EC7A3B00E0C268 /* CCActionCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCActionCamera.h; sourceTree = "<group>"; };
@@ -536,21 +533,11 @@
 				0B6E2A5515EC847900E0C268 /* GameScene.m */,
 				0B6E2A3C15EC7A4000E0C268 /* AppDelegate.h */,
 				0B6E2A3D15EC7A4000E0C268 /* AppDelegate.m */,
-				0B6E28C515EC7A3A00E0C268 /* Resources */,
 				0B6E28DF15EC7A3B00E0C268 /* libs */,
 				35A9D30818FBB8D40039444A /* Images.xcassets */,
 				0B6E2A3815EC7A4000E0C268 /* Supporting Files */,
 			);
 			path = AppMakerGameClient;
-			sourceTree = "<group>";
-		};
-		0B6E28C515EC7A3A00E0C268 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0B6E28DC15EC7A3B00E0C268 /* Info.plist */,
-				0B6E28DD15EC7A3B00E0C268 /* iTunesArtwork */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		0B6E28DF15EC7A3B00E0C268 /* libs */ = {
@@ -891,6 +878,7 @@
 		0B6E2A3815EC7A4000E0C268 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0B6E28DC15EC7A3B00E0C268 /* Info.plist */,
 				0B6E2A3915EC7A4000E0C268 /* Prefix.pch */,
 				0B6E2A3A15EC7A4000E0C268 /* main.m */,
 			);
@@ -948,8 +936,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				35A9D30918FBB8D40039444A /* Images.xcassets in Resources */,
-				0B6E28DE15EC7A3B00E0C268 /* iTunesArtwork in Resources */,
-				0B6E2A1C15EC7A4000E0C268 /* ChangeLog in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
