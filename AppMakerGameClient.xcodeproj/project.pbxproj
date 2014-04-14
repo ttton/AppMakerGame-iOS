@@ -896,6 +896,7 @@
 		0B6E28A515EC7A3A00E0C268 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AM;
 				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 0B6E28A815EC7A3A00E0C268 /* Build configuration list for PBXProject "AppMakerGameClient" */;
