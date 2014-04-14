@@ -42,17 +42,6 @@
 		0B6E28BF15EC7A3A00E0C268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6E28BE15EC7A3A00E0C268 /* Foundation.framework */; };
 		0B6E28C115EC7A3A00E0C268 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6E28C015EC7A3A00E0C268 /* CoreGraphics.framework */; };
 		0B6E28C315EC7A3A00E0C268 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6E28C215EC7A3A00E0C268 /* GameKit.framework */; };
-		0B6E28C715EC7A3A00E0C268 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28C615EC7A3A00E0C268 /* Default.png */; };
-		0B6E28C915EC7A3A00E0C268 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28C815EC7A3A00E0C268 /* Default-Landscape~ipad.png */; };
-		0B6E28CB15EC7A3A00E0C268 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28CA15EC7A3A00E0C268 /* fps_images.png */; };
-		0B6E28CD15EC7A3A00E0C268 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28CC15EC7A3A00E0C268 /* fps_images-hd.png */; };
-		0B6E28CF15EC7A3B00E0C268 /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28CE15EC7A3B00E0C268 /* fps_images-ipadhd.png */; };
-		0B6E28D115EC7A3B00E0C268 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28D015EC7A3B00E0C268 /* Icon-72.png */; };
-		0B6E28D315EC7A3B00E0C268 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28D215EC7A3B00E0C268 /* Icon-Small-50.png */; };
-		0B6E28D515EC7A3B00E0C268 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28D415EC7A3B00E0C268 /* Icon-Small.png */; };
-		0B6E28D715EC7A3B00E0C268 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28D615EC7A3B00E0C268 /* Icon-Small@2x.png */; };
-		0B6E28D915EC7A3B00E0C268 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28D815EC7A3B00E0C268 /* Icon.png */; };
-		0B6E28DB15EC7A3B00E0C268 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28DA15EC7A3B00E0C268 /* Icon@2x.png */; };
 		0B6E28DE15EC7A3B00E0C268 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E28DD15EC7A3B00E0C268 /* iTunesArtwork */; };
 		0B6E28E315EC7A3B00E0C268 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E28E215EC7A3B00E0C268 /* CCAction.m */; };
 		0B6E28E615EC7A3B00E0C268 /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E28E515EC7A3B00E0C268 /* CCActionCamera.m */; };
@@ -158,11 +147,9 @@
 		0B6E2A3B15EC7A4000E0C268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E2A3A15EC7A4000E0C268 /* main.m */; };
 		0B6E2A3E15EC7A4000E0C268 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E2A3D15EC7A4000E0C268 /* AppDelegate.m */; };
 		0B6E2A4F15EC7CF300E0C268 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E2A4E15EC7CF300E0C268 /* MainMenuScene.m */; };
-		0B6E2A5215EC83BE00E0C268 /* startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E2A5015EC83BE00E0C268 /* startButton.png */; };
-		0B6E2A5315EC83BE00E0C268 /* startButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E2A5115EC83BE00E0C268 /* startButtonSelected.png */; };
 		0B6E2A5615EC847900E0C268 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E2A5515EC847900E0C268 /* GameScene.m */; };
 		0BA0A57715EC8E43008972EB /* CCUIViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA0A57615EC8E43008972EB /* CCUIViewWrapper.m */; };
-		3512963D177D8C480066B416 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3512963C177D8C480066B416 /* Default-568h@2x.png */; };
+		35A9D30918FBB8D40039444A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A9D30818FBB8D40039444A /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -202,17 +189,6 @@
 		0B6E28BE15EC7A3A00E0C268 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0B6E28C015EC7A3A00E0C268 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0B6E28C215EC7A3A00E0C268 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		0B6E28C615EC7A3A00E0C268 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
-		0B6E28C815EC7A3A00E0C268 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Resources/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		0B6E28CA15EC7A3A00E0C268 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = Resources/fps_images.png; sourceTree = "<group>"; };
-		0B6E28CC15EC7A3A00E0C268 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-hd.png"; path = "Resources/fps_images-hd.png"; sourceTree = "<group>"; };
-		0B6E28CE15EC7A3B00E0C268 /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-ipadhd.png"; path = "Resources/fps_images-ipadhd.png"; sourceTree = "<group>"; };
-		0B6E28D015EC7A3B00E0C268 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
-		0B6E28D215EC7A3B00E0C268 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
-		0B6E28D415EC7A3B00E0C268 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
-		0B6E28D615EC7A3B00E0C268 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
-		0B6E28D815EC7A3B00E0C268 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
-		0B6E28DA15EC7A3B00E0C268 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		0B6E28DC15EC7A3B00E0C268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		0B6E28DD15EC7A3B00E0C268 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
 		0B6E28E115EC7A3B00E0C268 /* CCAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCAction.h; path = libs/cocos2d/CCAction.h; sourceTree = "<group>"; };
@@ -452,13 +428,11 @@
 		0B6E2A3D15EC7A4000E0C268 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0B6E2A4D15EC7CF300E0C268 /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
 		0B6E2A4E15EC7CF300E0C268 /* MainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
-		0B6E2A5015EC83BE00E0C268 /* startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton.png; sourceTree = "<group>"; };
-		0B6E2A5115EC83BE00E0C268 /* startButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButtonSelected.png; sourceTree = "<group>"; };
 		0B6E2A5415EC847900E0C268 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		0B6E2A5515EC847900E0C268 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		0BA0A57515EC8E43008972EB /* CCUIViewWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUIViewWrapper.h; sourceTree = "<group>"; };
 		0BA0A57615EC8E43008972EB /* CCUIViewWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUIViewWrapper.m; sourceTree = "<group>"; };
-		3512963C177D8C480066B416 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		35A9D30818FBB8D40039444A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -517,11 +491,6 @@
 		0B6E28A315EC7A3A00E0C268 = {
 			isa = PBXGroup;
 			children = (
-				3512963C177D8C480066B416 /* Default-568h@2x.png */,
-				0B61AE1115F4929000338C30 /* libz.dylib */,
-				0B61AE0F15F491B700338C30 /* MobileCoreServices.framework */,
-				0B61AE0D15F491B000338C30 /* SystemConfiguration.framework */,
-				0B61AE0B15F491A400338C30 /* CFNetwork.framework */,
 				0B6E28C415EC7A3A00E0C268 /* AppMakerGameClient */,
 				0B6E28B115EC7A3A00E0C268 /* Frameworks */,
 				0B6E28AF15EC7A3A00E0C268 /* Products */,
@@ -539,6 +508,10 @@
 		0B6E28B115EC7A3A00E0C268 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0B61AE1115F4929000338C30 /* libz.dylib */,
+				0B61AE0F15F491B700338C30 /* MobileCoreServices.framework */,
+				0B61AE0D15F491B000338C30 /* SystemConfiguration.framework */,
+				0B61AE0B15F491A400338C30 /* CFNetwork.framework */,
 				0B6E28B215EC7A3A00E0C268 /* QuartzCore.framework */,
 				0B6E28B415EC7A3A00E0C268 /* OpenGLES.framework */,
 				0B6E28B615EC7A3A00E0C268 /* OpenAL.framework */,
@@ -565,6 +538,7 @@
 				0B6E2A3D15EC7A4000E0C268 /* AppDelegate.m */,
 				0B6E28C515EC7A3A00E0C268 /* Resources */,
 				0B6E28DF15EC7A3B00E0C268 /* libs */,
+				35A9D30818FBB8D40039444A /* Images.xcassets */,
 				0B6E2A3815EC7A4000E0C268 /* Supporting Files */,
 			);
 			path = AppMakerGameClient;
@@ -573,19 +547,6 @@
 		0B6E28C515EC7A3A00E0C268 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0B6E2A5015EC83BE00E0C268 /* startButton.png */,
-				0B6E2A5115EC83BE00E0C268 /* startButtonSelected.png */,
-				0B6E28C615EC7A3A00E0C268 /* Default.png */,
-				0B6E28C815EC7A3A00E0C268 /* Default-Landscape~ipad.png */,
-				0B6E28CA15EC7A3A00E0C268 /* fps_images.png */,
-				0B6E28CC15EC7A3A00E0C268 /* fps_images-hd.png */,
-				0B6E28CE15EC7A3B00E0C268 /* fps_images-ipadhd.png */,
-				0B6E28D015EC7A3B00E0C268 /* Icon-72.png */,
-				0B6E28D215EC7A3B00E0C268 /* Icon-Small-50.png */,
-				0B6E28D415EC7A3B00E0C268 /* Icon-Small.png */,
-				0B6E28D615EC7A3B00E0C268 /* Icon-Small@2x.png */,
-				0B6E28D815EC7A3B00E0C268 /* Icon.png */,
-				0B6E28DA15EC7A3B00E0C268 /* Icon@2x.png */,
 				0B6E28DC15EC7A3B00E0C268 /* Info.plist */,
 				0B6E28DD15EC7A3B00E0C268 /* iTunesArtwork */,
 			);
@@ -962,7 +923,7 @@
 		0B6E28A515EC7A3A00E0C268 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 0B6E28A815EC7A3A00E0C268 /* Build configuration list for PBXProject "AppMakerGameClient" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -986,22 +947,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B6E28C715EC7A3A00E0C268 /* Default.png in Resources */,
-				0B6E28C915EC7A3A00E0C268 /* Default-Landscape~ipad.png in Resources */,
-				0B6E28CB15EC7A3A00E0C268 /* fps_images.png in Resources */,
-				0B6E28CD15EC7A3A00E0C268 /* fps_images-hd.png in Resources */,
-				0B6E28CF15EC7A3B00E0C268 /* fps_images-ipadhd.png in Resources */,
-				0B6E28D115EC7A3B00E0C268 /* Icon-72.png in Resources */,
-				0B6E28D315EC7A3B00E0C268 /* Icon-Small-50.png in Resources */,
-				0B6E28D515EC7A3B00E0C268 /* Icon-Small.png in Resources */,
-				0B6E28D715EC7A3B00E0C268 /* Icon-Small@2x.png in Resources */,
-				0B6E28D915EC7A3B00E0C268 /* Icon.png in Resources */,
-				0B6E28DB15EC7A3B00E0C268 /* Icon@2x.png in Resources */,
+				35A9D30918FBB8D40039444A /* Images.xcassets in Resources */,
 				0B6E28DE15EC7A3B00E0C268 /* iTunesArtwork in Resources */,
 				0B6E2A1C15EC7A4000E0C268 /* ChangeLog in Resources */,
-				0B6E2A5215EC83BE00E0C268 /* startButton.png in Resources */,
-				0B6E2A5315EC83BE00E0C268 /* startButtonSelected.png in Resources */,
-				3512963D177D8C480066B416 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1148,12 +1096,13 @@
 		0B6E2A4515EC7A4000E0C268 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1162,10 +1111,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1174,20 +1127,24 @@
 		0B6E2A4615EC7A4000E0C268 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
 					"NS_BLOCK_ASSERTIONS=1",
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
@@ -1199,17 +1156,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AppMakerGameClient/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"AppMakerGameClient/libs/kazmath/include\"";
 				INFOPLIST_FILE = AppMakerGameClient/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
 				);
 				PRODUCT_NAME = AppMakerGameClient;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1218,16 +1181,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AppMakerGameClient/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"AppMakerGameClient/libs/kazmath/include\"";
 				INFOPLIST_FILE = AppMakerGameClient/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
 				);
 				PRODUCT_NAME = AppMakerGameClient;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
