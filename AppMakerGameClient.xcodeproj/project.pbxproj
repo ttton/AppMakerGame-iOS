@@ -486,6 +486,7 @@
 				0B61ADF615F48AAF00338C30 /* Reachability.m */,
 			);
 			name = ASIHTTPRequest;
+			path = libs/ASIHTTPRequest;
 			sourceTree = "<group>";
 		};
 		0B6E28A315EC7A3A00E0C268 = {
