@@ -41,7 +41,6 @@
 		0B6E28BD15EC7A3A00E0C268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6E28BC15EC7A3A00E0C268 /* UIKit.framework */; };
 		0B6E28BF15EC7A3A00E0C268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6E28BE15EC7A3A00E0C268 /* Foundation.framework */; };
 		0B6E28C115EC7A3A00E0C268 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6E28C015EC7A3A00E0C268 /* CoreGraphics.framework */; };
-		0B6E28C315EC7A3A00E0C268 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6E28C215EC7A3A00E0C268 /* GameKit.framework */; };
 		0B6E28E315EC7A3B00E0C268 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E28E215EC7A3B00E0C268 /* CCAction.m */; };
 		0B6E28E615EC7A3B00E0C268 /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E28E515EC7A3B00E0C268 /* CCActionCamera.m */; };
 		0B6E28E915EC7A3B00E0C268 /* CCActionCatmullRom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E28E815EC7A3B00E0C268 /* CCActionCatmullRom.m */; };
@@ -449,7 +448,6 @@
 				0B6E28BD15EC7A3A00E0C268 /* UIKit.framework in Frameworks */,
 				0B6E28BF15EC7A3A00E0C268 /* Foundation.framework in Frameworks */,
 				0B6E28C115EC7A3A00E0C268 /* CoreGraphics.framework in Frameworks */,
-				0B6E28C315EC7A3A00E0C268 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
